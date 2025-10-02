@@ -19,7 +19,6 @@ static BOOL shouldShowVolumeBar() {
 @end
 
 %hook YTMWatchView
-%property (nonatomic, strong) GSVolBar *volumeBar;
 
 - (instancetype)initWithColorScheme:(id)scheme {
     self = %orig;
